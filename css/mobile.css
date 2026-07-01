@@ -1,0 +1,283 @@
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .hero {
+    height: 300px;
+  }
+
+  .hero-content {
+    top: 22%;
+    left: 50%;
+    width: 90%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  .hero-name {
+    font-size: 28px;
+  }
+
+  .hero-title {
+    font-size: 12px;
+  }
+
+  .main-nav {
+    box-shadow: none;
+  }
+
+  .main-nav ul {
+    display: block;
+    max-width: 100%;
+    padding: 12px 0;
+  }
+
+  .main-nav li {
+    display: block;
+    min-height: auto;
+    border: none;
+    padding: 8px 30px;
+  }
+
+  .main-nav li:last-child {
+    border-right: none;
+  }
+
+  .main-nav a {
+    display: block;
+    font-size: 14px;
+    color: #111;
+  }
+
+  .nav-center {
+    display: none;
+  }
+
+  .info-section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .info-left,
+  .info-right {
+    min-height: auto;
+    padding: 64px 12px;
+  }
+
+  .section-title {
+    font-size: 28px;
+    line-height: 1.25;
+    margin-bottom: 36px;
+  }
+
+  .info-left p {
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .info-list li {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .email-input {
+    height: 36px;
+    font-size: 14px;
+  }
+
+  .email-button {
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+
+  .resume-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding: 36px 8px;
+  }
+
+  .resume-card {
+    min-height: auto;
+    border: 1px solid #e1e1e1;
+  }
+
+  .resume-title {
+    min-height: 118px;
+    padding: 0 30px;
+  }
+
+  .resume-title h2 {
+    font-size: 28px;
+    font-weight: 400;
+    color: #111;
+  }
+
+  .resume-title i {
+    font-size: 44px;
+    color: #9aaab5;
+  }
+
+  .resume-card .resume-item,
+  .resume-card .level-item,
+  .resume-card .hobby-list {
+    margin-left: 62px;
+    margin-right: 28px;
+  }
+
+  .resume-item {
+    margin-bottom: 42px;
+    position: relative;
+  }
+
+  .resume-item::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #199cdb;
+    border-radius: 50%;
+    position: absolute;
+    left: -32px;
+    top: 9px;
+  }
+
+  .resume-item h3 {
+    font-size: 16px;
+    color: #111;
+    font-weight: 400;
+    line-height: 1.45;
+  }
+
+  .resume-item .time {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+
+  .resume-item p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .hobby-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+  }
+
+  .level span {
+    width: 58px;
+    height: 4px;
+  }
+
+  .certificate-section {
+    padding: 42px 10px;
+  }
+
+  .cert-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 34px;
+  }
+
+  .cert-item {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 0 16px 24px;
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  .cert-item:nth-child(2) {
+    border-left: none;
+    padding-left: 16px;
+  }
+
+  .cert-line {
+    display: none;
+  }
+
+  .cert-item img {
+    width: 100%;
+    height: auto;
+    max-height: none;
+  }
+
+  .project-section {
+    max-width: 100%;
+    padding: 42px 4px 54px;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .project-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .project-card h3 {
+    padding: 18px 20px;
+    font-size: 17px;
+    line-height: 1.4;
+  }
+
+  .project-meta {
+    display: block;
+    padding: 16px 20px;
+    font-size: 14px;
+  }
+
+  .project-meta span {
+    display: inline-block;
+    margin-bottom: 12px;
+    padding: 7px 20px;
+    font-size: 12px;
+  }
+
+  .project-meta p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+
+  .project-card table {
+    font-size: 14px;
+  }
+
+  .project-card td {
+    padding: 12px 10px;
+    line-height: 1.55;
+  }
+
+  .project-card td:first-child {
+    width: 72px;
+  }
+
+  .footer {
+    padding: 24px 0;
+    gap: 18px;
+  }
+
+  .footer a {
+    font-size: clamp(18px, 7vw, 24px);
+    margin: 0;
+  }
+}
+@media (max-width: 767px) {
+  .view-more-btn {
+    margin: -16px 0 24px 62px;
+    padding: 6px 14px;
+    font-size: 12px;
+  }
+
+  .resume-card:not(.active) {
+    min-height: 132px;
+  }
+}

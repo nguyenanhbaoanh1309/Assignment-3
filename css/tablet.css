@@ -1,0 +1,220 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .main-nav ul {
+    max-width: 760px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .nav-center {
+    display: none;
+  }
+
+  .main-nav li {
+    min-height: 50px;
+  }
+
+  .main-nav a {
+    font-size: 14px;
+  }
+
+  .hero {
+    height: 420px;
+  }
+
+  .hero-name {
+    font-size: 34px;
+  }
+
+  .hero-title {
+    font-size: 13px;
+  }
+
+  .info-section {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .info-left,
+  .info-right {
+    min-height: 360px;
+    padding: 70px 48px;
+  }
+
+  .section-title {
+    font-size: 28px;
+    margin-bottom: 34px;
+  }
+
+  .info-left p {
+    max-width: 280px;
+    font-size: 14px;
+    line-height: 1.65;
+  }
+
+  .info-list li {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+
+  .email-input {
+    height: 34px;
+    font-size: 13px;
+  }
+
+  .email-button {
+    padding: 7px 14px;
+    font-size: 13px;
+  }
+
+  .resume-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px 30px;
+    padding: 46px 0;
+  }
+
+  .resume-card {
+    min-height: 0;
+    padding-bottom: 36px;
+  }
+
+  .resume-title {
+    min-height: 116px;
+    padding: 0 30px;
+  }
+
+  .resume-title h2 {
+    font-size: 28px;
+    font-weight: 400;
+  }
+
+  .resume-title i {
+    font-size: 46px;
+    color: #9aaab5;
+  }
+
+  .resume-card .resume-item,
+  .resume-card .level-item,
+  .resume-card .hobby-list {
+    margin-left: 38px;
+    margin-right: 30px;
+  }
+
+  .resume-item h3 {
+    font-size: 16px;
+    color: #111;
+  }
+
+  .resume-item .time {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  .resume-item p {
+    font-size: 14px;
+    line-height: 1.55;
+  }
+
+  .level span {
+    width: 70px;
+    height: 4px;
+  }
+
+  .certificate-section {
+    padding: 36px 18px 48px;
+  }
+
+  .certificate-section .container {
+    max-width: 760px;
+  }
+
+  .cert-grid {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 18px;
+    row-gap: 40px;
+  }
+
+  .cert-item {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .cert-item:nth-child(2) {
+    border-left: 1px solid #d6c08d;
+    padding-left: 18px;
+  }
+
+  .cert-item img {
+    width: 100%;
+    height: auto;
+    max-height: 170px;
+  }
+
+  .project-section {
+    max-width: 760px;
+    padding: 34px 12px 56px;
+  }
+
+  .project-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  .project-card img {
+    height: 154px;
+  }
+
+  .project-card h3 {
+    min-height: 74px;
+    padding: 18px 20px;
+    font-size: 16px;
+    line-height: 1.45;
+  }
+
+  .project-meta {
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    padding: 14px 16px;
+    font-size: 14px;
+  }
+
+  .project-card table {
+    font-size: 14px;
+  }
+
+  .project-card td {
+    padding: 12px 10px;
+    line-height: 1.55;
+  }
+
+  .project-card td:first-child {
+    width: 62px;
+  }
+
+  .footer {
+    padding: 28px 0;
+    gap: 24px;
+  }
+
+  .footer a {
+    font-size: clamp(20px, 3vw, 26px);
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .view-more-btn {
+    margin: -18px 0 24px 38px;
+    padding: 6px 15px;
+    font-size: 12px;
+  }
+
+  .resume-card:not(.active) {
+    min-height: 126px;
+  }
+}
