@@ -281,3 +281,8 @@
     min-height: 132px;
   }
 }
+@media (max-width: 767px) {
+  .nav-center {
+    display: none !important;
+  }
+}
